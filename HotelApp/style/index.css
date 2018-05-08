@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #222;
+  color: #fff;
+  padding-left: 10px;
+}
+
+ul {
+  padding-left: 15px;
+  /*float: left;*/
+}
+
+li {
+  list-style: none;
+  line-height: 30px;
+  width: 100px;
+  background-color: rgb(0, 100, 100);
+  color: white;
+  padding-left: 10px;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}

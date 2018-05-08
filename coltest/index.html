@@ -1,0 +1,47 @@
+<!DOCTYPE html5>
+<html>
+<head>
+  <title>O Max Anderson</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Column Test</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <a href="#"><li>Home</a></li>
+      <a href="#"><li>About Us</li></a>
+      <a href="#"><li>Contact</li></a>
+      <a href="#"><li>Products</li></a>
+    </ul>
+  </nav>
+
+  <div class="colContainer">
+    <div class="column1 col">
+      <p>The travelling salesman problem (TSP) is one that has been at the forefront of a group of problems that computer scientists and mathematicians have been trying to solve for decades. The problem is described as the following: \hl{Given a set of cities and the distances between every city, find the shortest possible path that hits each city exactly once and returns back to the starting city.}
+
+  This problem is one that is easy to describe, but has proven very difficult to solve. It belongs to a class of problems called NP-complete, meaning that while an optimal solution can be easy to check for validity, it is incredibly difficult to find that solution in the first place. As the problem grows larger, the worst-case running time increases at an incredible rate. Given a small set of cities, a theoretically simple way to find an optimal solution is to list each possible path and choose the shortest. For example, Figure 1 shows a graph of four cities with the corresponding weights along the edges.
+      </p>
+    </div> <!-- column1 -->
+
+    <div class="column2 col">
+      <p>By the time we have twenty cities, the number of potential paths is into the quadrillions. Clearly this is unattainable for human computation, and even the most modern computers would not be able to handle this many operations in any feasible time frame. TSP problems with thousands of cities are nearly incomprehensible in the amount of paths to compute. This leaves two options for our problem. First, we can find a different way to compute the optimal path. As this problem is in the set of NP-complete problems, as of now there is no algorithm that can guarantee an optimal solution in polynomial time. The second option is to find a nearly-optimal solution. This means that we are not truly solving the problem, but we are finding an answer that is ``good enough'' by some pre-determined margin of error.
+      </p>
+    </div> <!-- column2 -->
+
+    <div class="column3 col">
+      <p>The brute force algorithm is an algorithm that is guaranteed to provide an optimal solution to every instance of the Travelling Salesman Problem. As discussed earlier, however, as the number of cities increases, the time it takes for the brute force algorithm to find the optimal solution quickly becomes impractical. Pseudocode for the procedure is provided in Algorithm 1. \hl{In essence, the method enumerates every possible solution in the problem space, keeps track of the lowest cost path, and returns the optimal solution.} By the time there are 30 cities in the problem, however, there are more possible paths than there are meters to the edge of the observable universe.
+      </p>
+    </div> <!-- column3 -->
+  </div> <!-- colcontainer -->
+<br />
+  <p id="p"  onclick="changeStyle()">Click Me!</button>
+
+
+</body>
+
+</html>

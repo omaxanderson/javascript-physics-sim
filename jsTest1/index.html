@@ -1,0 +1,45 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+  <title>JS Test</title>
+  <link type="text/css" rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div id="mouseInfo">
+    <ul>
+      <li id="sx"></li>
+      <li id="sy"></li>
+      <li id="px"></li>
+      <li id="py"></li>
+      <li id="cx"></li>
+      <li id="cy"></li>
+    </ul>
+  </div>
+
+  <h1 class="blue" id="header">JS Testing</h1>
+
+  <div id="nav">
+    <ul>
+      <li class="blue"><span>max</span></li>
+      <li class="blue">dave</li>
+      <li class="blue">lauren</li>
+      <li class="blue">kristie</li>
+      <li class="blue">sheldon</li>
+      <li class="blue">mongo</li>
+    </ul>
+  </div> <!-- nav -->
+
+  <p id="para1" class="paragraph">The travelling salesman problem (TSP) is one that has been at the forefront of a group of problems that computer scientists and mathematicians have been trying to solve for decades. The problem is described as the following: \hl{Given a set of cities and the distances between every city, find the shortest possible path that hits each city exactly once and returns back to the starting city.
+This problem is one that is easy to describe, but has proven very difficult to solve. It belongs to a class of problems called NP-complete, meaning that while an optimal solution can be easy to check for validity, it is incredibly difficult to find that solution in the first place. As the problem grows larger, the worst-case running time increases at an incredible rate. Given a small set of cities, a theoretically simple way to find an optimal solution is to list each possible path and choose the shortest. For example, Figure 1 shows a graph of four cities with the corresponding weights along the edges.
+  </p>
+
+  <p id="para2" class="paragraph">By the time we have twenty cities, the number of potential paths is into the quadrillions. Clearly this is unattainable for human computation, and even the most modern computers would not be able to handle this many operations in any feasible time frame. TSP problems with thousands of cities are nearly incomprehensible in the amount of paths to compute. This leaves two options for our problem. First, we can find a different way to compute the optimal path. As this problem is in the set of NP-complete problems, as of now there is no algorithm that can guarantee an optimal solution in polynomial time. The second option is to find a nearly-optimal solution. This means that we are not truly solving the problem, but we are finding an answer that is ``good enough'' by some pre-determined margin of error.
+  </p>
+
+  <div id="jsOutput"></div>
+
+  <script type="text/javascript" rel="javascript" src="js/index.js"></script>
+</body>
+</html>
